@@ -136,7 +136,7 @@ const Projects = () => {
           title="Template Copy"
           para="This temlated copy from TEMPLATE.COM"
           link="Click Me"
-          linkSrc="https://sankalpmishra.netlify.app/"
+          linkSrc="https://sankalp-templet.netlify.app/"
           gitSrc="https://github.com/sankalpmishra2795/horizon_template"
           arr={[
             "https://cdn.svgporn.com/logos/html-5.svg",
