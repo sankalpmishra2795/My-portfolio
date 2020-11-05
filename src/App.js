@@ -12,10 +12,15 @@ function App() {
   useEffect(() => {
     const cursor = document.querySelector(".cursor")
     document.addEventListener("mousemove", e => {
-      cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX -10)+"px;")
+      cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;")
+      // cursor.setAttribute("style", `background: rgb(${e.pageY},${e.pageX},${e.pageY})`)
+      let r = Math.floor(Math.random() * 210);
+      let g = Math.floor(Math.random() * 250);
+      let b = Math.floor(Math.random() * 230);
+      cursor.style.backgroundColor = `rgb(${r},${g},${b})`
     })
-    
   }, [])
+
   return (
     <div>
       <div className="cursor"></div>

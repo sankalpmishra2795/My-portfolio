@@ -10,17 +10,17 @@ export default function Statics() {
           <p className="mt-3 font-weight-bold h5 ">Hours Of Coding</p>
         </div>
         <div className="mt-3">
-          <h1 className="static-div rounded-circle pt-5 ml-4">200+</h1>
+          <h1 className="static-div rounded-circle pt-5 ml-4">100+</h1>
           <p className="mt-3 font-weight-bold h5 ">Data Structure Problems </p>
         </div>
         <div className="mt-3">
-          <h1 className="static-div rounded-circle pt-5">250+</h1>
+          <h1 className="static-div rounded-circle pt-5">180+</h1>
           <p className="mt-3 font-weight-bold h5 ">Commits on Github</p>
         </div>
-        <div className="mt-3">
+        {/* <div className="mt-3">
           <h1 className="static-div rounded-circle pt-5">100+</h1>
           <p className="mt-3 font-weight-bold h5 ">Hours Of soft Skills</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

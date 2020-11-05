@@ -18,7 +18,7 @@ const Section1 = () => {
         <div className="col-md-4 mt-2">
         <img src="https://santhisrikh.github.io/images/back.png" alt="" />
         <h3 className="text-muted">Backend</h3>
-        <p>Python,Flask ,SQL</p>
+        <p>Node.js, Express, MongoDB</p>
         </div>
       </div>
     </div>
