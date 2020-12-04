@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
       <div className="d-flex flex-column flex-md-row justify-content-center align-items-center">
-        <div className="rounded-circle wrap-img mx-5  mt-5 mb-4 shadow  " style={{width:380, height:400}} >
+        <div className="rounded-circle wrap-img mx-5  mt-5 mb-4 shadow  "  >
           <img
             src="sam.jpeg"
             alt=""
